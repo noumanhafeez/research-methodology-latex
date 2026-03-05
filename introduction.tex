@@ -1,0 +1,22 @@
+\section{Introduction}
+
+Large Language Models (LLMs) such as GPT, PaLM, and LLaMA have significantly advanced the field of Natural Language Processing (NLP). These models are trained on massive corpora using transformer architectures and demonstrate strong capabilities in text generation, question answering, summarization, and reasoning tasks. Their emergence has reshaped human-computer interaction by enabling more natural and coherent dialogue systems.
+
+Despite their impressive performance, LLMs suffer from a critical limitation known as hallucination. Hallucination refers to the generation of content that is syntactically correct and fluent but factually incorrect, misleading, or entirely fabricated. This phenomenon raises serious concerns in high-stakes domains such as healthcare, law, education, and scientific research, where factual reliability is crucial.
+
+Hallucinations occur due to multiple underlying factors, including training data noise, probabilistic next-token prediction objectives, lack of grounding in external knowledge sources, and overgeneralization from patterns in data. Since LLMs are fundamentally predictive models optimized for likelihood maximization rather than truth verification, they may produce confident but incorrect responses when faced with ambiguous or unseen queries.
+
+Researchers have categorized hallucinations into intrinsic and extrinsic types. Intrinsic hallucinations occur when generated content contradicts the provided input context, while extrinsic hallucinations involve fabrication of information not supported by external facts. Understanding these distinctions is essential for designing robust mitigation strategies.
+
+Recent research efforts focus on detecting, evaluating, and reducing hallucinations using techniques such as retrieval-augmented generation (RAG), reinforcement learning from human feedback (RLHF), external knowledge grounding, and uncertainty estimation. Benchmark datasets and evaluation metrics are also being developed to systematically measure hallucination rates across tasks.
+
+\subsection*{Anticipated Contributions}
+
+This survey aims to provide:
+
+\begin{itemize}
+    \item A comprehensive taxonomy of hallucination types in LLMs.
+    \item A review of evaluation benchmarks and automatic detection methods.
+    \item A detailed comparison of mitigation strategies including RAG, fine-tuning, and prompt engineering.
+    \item Identification of open research challenges in building trustworthy LLMs.
+\end{itemize}
